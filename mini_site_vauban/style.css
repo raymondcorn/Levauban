@@ -1,0 +1,85 @@
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+    margin: 0;
+    background: #f5f3ec;
+    color: #222;
+}
+header {
+    background: linear-gradient(135deg, #2E3A47, #4B2E3F);
+    color: white;
+    padding: 1.5rem 2rem;
+}
+header h1 {
+    margin: 0;
+    font-size: 1.8rem;
+}
+header p {
+    margin: 0.2rem 0 0;
+    opacity: 0.9;
+}
+nav {
+    background: #c9a227;
+    padding: 0.5rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+nav a {
+    color: #222;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 0.3rem 0.8rem;
+    border-radius: 999px;
+    background: rgba(255,255,255,0.7);
+}
+nav a:hover {
+    background: white;
+}
+main {
+    padding: 2rem;
+    max-width: 960px;
+    margin: 0 auto;
+}
+.card {
+    background: white;
+    border-radius: 16px;
+    padding: 1.5rem 1.75rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+}
+.card h2 {
+    margin-top: 0;
+}
+.badge {
+    display: inline-block;
+    padding: 0.2rem 0.6rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    background: #2E3A47;
+    color: white;
+    margin-right: 0.25rem;
+}
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+    color: #666;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+ul {
+    padding-left: 1.2rem;
+}
+a.button {
+    display: inline-block;
+    margin-top: 0.5rem;
+    padding: 0.5rem 0.9rem;
+    border-radius: 999px;
+    background: #2E3A47;
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+a.button:hover {
+    background: #1e2831;
+}
